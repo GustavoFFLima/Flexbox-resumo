@@ -57,3 +57,8 @@ h1, h2 {
 .unit:nth-child(10) {
     background: aquamarine;
 }
+
+
+p {
+    display: none;
+}
