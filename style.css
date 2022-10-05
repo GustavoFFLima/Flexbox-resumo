@@ -1,67 +1,93 @@
-* {
-
-}
 body {
     background: #282828;
+    display: flex;
+    justify-content: space-evenly;
 }
-h1, h2 {
+h1, h2, summary {
     color: #E0E484;
+    margin: 0px;
 }
-.justify-content {
+details {
+    display: inline-block;
+}
+p {
+    color: azure;
+}
+.leftSection {
+    width: 49%;
+    height: 650px;
+    background-color: green;
+}
+.rigthSection {
+    width: 49%;
+    background-color: pink;
+}
+.propriedade {
     background-color: #2F2F2F;
+    border-radius: 5px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 .box {
     display: flex;
-    width: 1250px;
-    height: 60px;
+    height: 50px;
+    width: auto;
     background: #010101;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.box_1 {
     justify-content: flex-start;
+}
+.box_2 {
+    justify-content: center;
+}
+.box_3 {
+    justify-content: flex-end;
+}
+.box_4 {
+    justify-content: space-around;
+}
+.box_5 {
+    justify-content: space-between;
+}
+.box_6 {
+    justify-content: space-evenly;
 }
 .unit {
     display: flex;
-    width: 50px;
+    width: 10%;
     height: 50px;
     border-radius: 5px;
-    border: solid 3px #fff;
     background: #E0E484;
     align-items: center;
     justify-content: center;
 }
 .unit:nth-child(1) {
-    background: aquamarine;
+    background: #6D2148;
 }
 .unit:nth-child(2) {
-    background: aquamarine;
+    background: #714874;
 }
 .unit:nth-child(3) {
-    background: aquamarine;
+    background: #47254A;
 }
 .unit:nth-child(4) {
-    background: aquamarine;
+    background: #1D1F48;
 }
 .unit:nth-child(5) {
-    background: aquamarine;
+    background: #184643;
 }
 .unit:nth-child(6) {
-    background: aquamarine;
+    background: #206920;
 }
 .unit:nth-child(7) {
-    background: aquamarine;
-}
-.unit:nth-child(8) {
-    background: aquamarine;
-}
-.unit:nth-child(9) {
-    background: aquamarine;
-}
-.unit:nth-child(10) {
-    background: aquamarine;
+    background: #44E03F;
 }
 
-
-p {
-    display: none;
-}
 
 /* https://www.horadecodar.com.br/2020/05/26/como-esconder-mostrar-uma-div-em-html/
    https://dev.to/vtrpldn/show-and-hide-content-easily-with-details-and-summary-html-tags-3eif
