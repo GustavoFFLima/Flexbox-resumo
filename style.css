@@ -22,7 +22,16 @@ p {
     width: 49%;
     background-color: pink;
 }
-.propriedade {
+.justify-content {
+    background-color: #2F2F2F;
+    border-radius: 5px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.align-content {
     background-color: #2F2F2F;
     border-radius: 5px;
     height: 250px;
